@@ -3,6 +3,9 @@ public class Student {
     private String name;
     private String email;
 
+    public Student() {
+    }
+
     public Student(Integer age, String name, String email) {
         this.age = age;
         this.name = name;
